@@ -48,8 +48,10 @@ https://yandex.ru/promo/set/portal_instructions/sethome_p/3?from=popup_main_Chro
 Внимание! Только для практики, в жизни так не делают
 
 views/lesson-1
+http://localhost:3000/lesson-1
 
 Задача 2.
 Отверстать youtube - главную страницу используя БЭМ и flexbox
 
 views/lesson-2
+http://localhost:3000/lesson-2
