@@ -46,6 +46,7 @@ https://yandex.ru/promo/set/portal_instructions/sethome_p/3?from=popup_main_Chro
 
 Задача отверстать сайт используя 1 класс в заголовке и от него вниз используя псевдоклассы и каскадность стилизовать элементы (div:first-type, .root > div,div + div, ...)
 Внимание! Только для практики, в жизни так не делают
+
 views/lesson-1
 
 Задача 2.
