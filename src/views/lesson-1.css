@@ -1,0 +1,89 @@
+/* root */
+.root{
+    background-color:transparent;
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.root div{
+    align-self: center;
+    /*border: 1px black solid;*/
+    padding: 1px;
+    font-family: YS Text,Helvetica,Arial,sans-serif;
+    text-align: center;    
+}
+/*header link Яндекс*/
+.root div a{
+    line-height: 15px;
+    color: black;
+}
+/*header padding*/
+.root div h1{
+    margin-top: 150px;
+}
+.root div:nth-child(1) div{
+    background-color:transparent;
+    margin-bottom: 5px;
+}
+/*Content*/
+.root div:nth-child(2){
+    height: 100%;
+}
+/*Content - how to setup*/
+.root div:nth-child(2) div:first-child div{
+    background-color:transparent;
+}
+/*Content - how to setup - button*/
+.root div:nth-child(2) div:first-child div span{ 
+    cursor:pointer;
+    align-self: center;
+    height: 20px;
+    padding: 14px 2px 14px 2px; 
+    background-color:#ffdf39;
+    border-radius: 5px;
+}
+.root div:nth-child(2) div:first-child div span label{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2px;
+}
+/*Устанавливая программу, вы принимаете условия*/
+.root div:nth-child(2) div:nth-child(2) div span{
+    font-size: 9pt;
+    line-height: 15px;
+    color: #999;
+}
+/*Лицензионного соглашения*/
+.root div:nth-child(2) div:nth-child(2) div span ~ a{
+    font-size: 9pt;
+    line-height: 15px;
+    color: #999;
+}
+/*Content - wizard*/
+.root div:nth-child(2) div:nth-child(3) div{
+    display:flex;  
+}
+/*Content - wizard div img*/
+.root div:nth-child(2) div:nth-child(3) section div section div{
+    display: inline-block;
+    align-content: center;
+}
+/*Content - wizard img*/
+.root div:nth-child(2) div:nth-child(3) img{
+    width:280px;
+    height: 200px;
+}
+.root div:nth-child(2) div:nth-child(3) section div section div:last-child{
+    width: 50%;
+}
+/*footer © 2020 Яндекс*/
+.root>div:nth-child(3)>div{ 
+    flex-direction: column;   
+    text-align: center;
+    background-color:yellow;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+    font-size: 12px;
+    line-height: 22px;
+}
