@@ -1,0 +1,145 @@
+.menu>div {
+    height: 40px;
+}
+
+.content-search {
+    height: 40px;
+}
+
+.content-search__button {
+    border: 1px solid #909090;
+    background-color: #e3e3e3;
+    border-radius: 0 2px 2px 0;
+
+}
+
+.content-search__input {
+    border: 1px solid #909090;
+    width: 538px;
+}
+
+input {
+    width: 100%;
+    border: 0px !important;
+
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 500px;
+    color: #959595;
+    padding: 6px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 58px;
+
+}
+
+.content {
+    width: 100%;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px 10px 0 0;
+    border-radius: 30px;
+}
+
+.video-title {
+    text-align: left;
+    padding-top: 12px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.video-meta-block {
+    text-align: left;
+    padding-top: 12px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    width: 72px;
+}
+
+
+
+span {
+    font-size: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    cursor: pointer;
+}
+.history-header {
+    border-top: 1px solid #f1f1f1;
+    background-color: white;
+}
+.history {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.history div {
+    border-radius: 15px;
+    background-color: #F0F0F0;
+    margin: 20px 20px 0px 20px;
+}
+
+.history div span {
+    margin: 5px 5px;
+    padding: 2px;
+}
+
+
+.nav-item {
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.icon-menu {
+    text-align: center;
+}
+
+.icon-menu>svg {
+
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.header {
+    width: 100%;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header div,
+.ytb-title {
+    display: inline-flex;
+}
+
+.video {
+    background-color: rgb(10, 239, 10);
+    height: 150px;
+}
