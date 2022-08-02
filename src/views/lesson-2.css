@@ -1,0 +1,127 @@
+.left_side {
+    align-items: center;
+    display: flex;
+}
+
+.right_side {
+    align-items: center;
+    display: flex;
+}
+
+.field {
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+input[type="text"] {
+
+    border: 1px solid #cccccc;
+    padding: 7px;
+    display: block;
+    width: 575px;
+    transition: border .4s ease-in-out;
+    border-radius: 2px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 500px;
+    color: #959595
+}
+
+#hreader {
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SearchButton {
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    padding: 3px 10px;
+    background-color: #dfdfdf;
+    transition: border .4s ease-in-out;
+    opacity: .7;
+    width: 40px;
+    height: 31px;
+}
+
+ul.nav {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+ul.nav a {
+    display: block;
+    width: 7em;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #333;
+}
+
+ul.nav li:last-child a {
+    border-bottom: 1px dashed #f4f4f4;
+}
+
+.videos {
+    margin-left: 300px;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container {
+    margin-left: 300px;
+    display: flex;
+    border: 2px white solid;
+    flex-wrap: wrap;
+    height: 200px;
+    align-content: flex-start;
+    margin-top: -730px;
+}
+
+.flex-item {
+    text-align: center;
+    font-size: 100px;
+    padding: 40px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.item1 {
+    background-color: rgb(10, 239, 10);
+}
+
+.item2 {
+    background-color: rgba(163, 23, 202, 0.645);
+}
+
+.item3 {
+    background-color: rgb(86, 93, 111);
+}
+
+.item4 {
+    background-color: rgb(114, 114, 16);
+}
+
+.item5 {
+    background-color: rgb(204, 83, 12);
+}
+
+.item6 {
+    background-color: #55962c;
+}
