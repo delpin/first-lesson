@@ -41,16 +41,10 @@ input::placeholder {
 
 .SearchButton {
     align-items: center;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    justify-content: center;
-    padding: 3px 10px;
-    background-color: #dfdfdf;
-    transition: border .4s ease-in-out;
+    transition: border .7s ease-in-out;
     opacity: .7;
-    width: 40px;
-    height: 31px;
+    width: 50px;
+    height: 30px;
 }
 
 ul.nav {

@@ -5,56 +5,46 @@ function Lesson1() {
       <div name="header">
         <span>Яндекс</span>
       </div>
-      <div name="content">
-        <div name="content_level-1">
+      <div name="head">
+        <div name="head-1">
           <span>Как сделать Яндекс главным по поиску</span>
         </div>
-        <div name="content_level-2">
+        <div name="head-2">
           <section>
             <div>
-              <div name="content_button-link">
+              <div name="Button1">
                 <button>
                   <span>Установить расширение</span>
                 </button>
               </div>
-              <div name="content_button-desc">
-                <span>Устанавливая программу, вы принимаете условия </span>
-                <a href="localhost"> Лицензионного соглашения</a>
+              <div name="Notification">
+                <span>Устанавливая программу, вы принимаете условия Лицензионного соглашения</span>
               </div>
             </div>
           </section>
         </div>
 
-        <div name="content_level-3">
+        <div name="centre">
           <section name="intsr">
             <div>
-              <section name="instr_step-1">
+              <section name="fst-image">
                 <div name="instr-img" />
-
-                <label> Установите расширение из Google Chrome Store</label>
+                <p> Установите расширение из Google Chrome Store</p>
               </section>
-              <section name="instr_step-2">
+              <section name="scnd-image">
                 <div name="instr-img"></div>
-
-                <label>
-                  {" "}
-                  Активируйте его, нажав на иконку у адресной строки
-                </label>
+                <p>Активируйте его, нажав на иконку у адресной строки</p>
               </section>
-              <section name="instr_step-3">
+              <section name="last-image">
                 <div name="instr-img"></div>
-
-                <label>
-                  {" "}
-                  Спрашивайте у Яндекса на стартовой и в адресной строке
-                </label>
+                <p>Спрашивайте у Яндекса на стартовой и в адресной строке</p>
               </section>
             </div>
           </section>
         </div>
       </div>
-      <div name="footer">
-        <label>© 2020 Яндекс</label>
+      <div name="end-page">
+        <p>© 2020 Яндекс</p>
       </div>
     </div>
   );

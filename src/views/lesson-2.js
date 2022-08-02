@@ -5,7 +5,7 @@ function Lesson2() {
         <div className="roots">
             <header id="hreader">
                 <div class="left_side">
-                    <div class="hamburger">
+                    <div class="lines">
                         <a href="#" class="logo"><img src="https://sun9-9.userapi.com/impf/NV0ZJodUQM8v2g3i6QY62AuNkDNqBx-CpyDd0w/q7aBSEO9Ywc.jpg?size=46x47&quality=96&sign=7538bd32087c3ae418b8fc917f93f21d&type=album" alt="YouTube"></img></a>
                     </div>
                     <div class="Button">
@@ -17,8 +17,8 @@ function Lesson2() {
                 <div class="centre">
                     <div class="field">
                         <input type="text" placeholder="Введите запрос" name="search"></input>
-                        <button>
-                            <img src="https://sun9-51.userapi.com/impf/VJiahYGdzdoY5hbfW83erYLyN3wrEtHrrqW6ZA/Q1dvNwX1-qw.jpg?size=79x47&quality=96&sign=c0d081ebeab65527fd2a7ca5372afdda&type=album" alt="Search" />
+                        <button class="SearchButton">
+                            <i class="Search" ></i>Поиск
                         </button>
                     </div>
                 </div>
