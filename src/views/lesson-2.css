@@ -1,0 +1,202 @@
+/* glodal div for visibility test*/
+.root_lesson2 div{
+    min-width:5px;
+    min-height:5px;
+    /*border: solid 1px black;*/
+    padding:2px;
+    margin:2px;
+    overflow: hidden;
+}
+/* base styles */
+.root_lesson2{
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    flex-wrap: nowrap;
+}
+/* FIXED! */
+.header-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:fixed;
+    background-color: white;
+    width: 99%;
+    top:-5px;
+}
+.header-logo-form{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-logo-form div{
+    display:flex;
+}
+.chips-header{
+    border-top: 1px solid #f1f1f1;
+    background-color: white;
+}
+.chips{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor:pointer;
+}
+.precontent{
+    display:flex;
+    flex-direction: row;
+}
+/* FIXED! */
+.nav-panel .nav-content{
+    position:fixed;
+    min-width:10%;
+    background-color: white;
+    top: 45px;
+    overflow-y: scroll;
+}
+.nav-items{
+    display:flex;
+    flex-direction: column;
+}
+.nav-items div{
+    display:flex;
+    flex-direction: row;    
+    cursor:pointer;
+}
+.page{
+    width:88%;
+    justify-content: end;
+    background-color: #f1f1f1;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-desc{
+    display:flex;
+    flex-direction: row;
+}
+span{
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    cursor:pointer;
+}
+/* fixed place for nav and header*/
+.shadow-header{
+    width: 100%;
+    height: 4rem;
+}
+.shadow-nav{
+    width:14.5rem;;
+    height: 100%;
+}
+/*------------custom styles------------*/
+/* header */
+.guide-button{
+    width:24px;
+}
+.you-logo{
+    width:90px;
+}
+.button_h{
+    height: 24px;
+}
+.search-panel{
+    width:500px;
+    height: 34px;
+    display:block;
+}
+.search-panel form{
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+}
+.search-panel input{
+    width:100%;
+    height: 81%;    
+}
+.search-panel .search-button{
+    width: 15%;
+    padding:0;
+    margin:0;
+}
+.search-panel .search-button button{
+    width: 60px;
+    height: 100%;
+}
+.search-panel svg{
+    width: 24px;
+    height: 24px;
+}
+.speak-button{
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    background-color: #F0F0F0;
+}
+.button-account{
+    border-radius: 15px;
+    width:24px;
+    background-color: #F0F0F0;
+}
+/* Chips */
+.chips div{
+    border-radius: 15px;
+    background-color: #F0F0F0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 1px 0px 0px 10px;
+}
+.chips div span{
+    margin: 5px 5px;
+    padding: 2px;
+}
+.chips div:hover{
+    background-color: #F0F0F0;
+}
+/* Nav Tabs */
+.al-ctr{
+    align-items: center;
+}
+.nav-hover{
+    max-width: 160px;
+    padding:5px;
+}
+.nav-hover:hover{
+    background-color: #F0F0F0;
+}
+/* Content */
+.container-prewiew{
+    width: 360px;
+    height: 200px;
+    background-color: mediumaquamarine;
+    cursor:pointer;
+}
+.content-container{
+    margin:5px;
+}
+.desc-owner{
+    height: 100%;
+}
+.owner-cycle{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: gray;
+}
+.label-info span{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+.desc-label div{
+    margin:0;
+    padding: 0;
+}
+.no-padd-marg-important{
+    padding:0;
+    margin:0;
+}

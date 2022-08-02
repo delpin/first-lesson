@@ -19,7 +19,7 @@
 }
 /*header padding*/
 .root div h1{
-    margin-top: 150px;
+    margin-top: 20%;
 }
 .root div:nth-child(1) div{
     background-color:transparent;
@@ -62,12 +62,18 @@
 }
 /*Content - wizard*/
 .root div:nth-child(2) div:nth-child(3) div{
-    display:flex;  
+    display:flex;
+    justify-content: center;
+}
+.root div:nth-child(2) section section{
+    display:flex;
+    flex-direction: column;
+    max-width:350px;
 }
 /*Content - wizard div img*/
 .root div:nth-child(2) div:nth-child(3) section div section div{
     display: inline-block;
-    align-content: center;
+    align-content: center;    
 }
 /*Content - wizard img*/
 .root div:nth-child(2) div:nth-child(3) img{
@@ -79,11 +85,12 @@
 }
 /*footer © 2020 Яндекс*/
 .root>div:nth-child(3)>div{ 
-    flex-direction: column;   
+    flex-direction: column;
     text-align: center;
-    background-color:yellow;
     justify-content: flex-end;
-    flex: 1 0 auto;
     font-size: 12px;
     line-height: 22px;
+    position:fixed;
+    top:95%;
+    left: 50%;
 }
