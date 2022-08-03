@@ -1,0 +1,195 @@
+.root {
+    position: relative;
+    font-family: YS Text,Helvetica,Arial,sans-serif;
+    padding-left: 50px;
+}
+
+.root>img {
+    position: absolute;
+    bottom: 48.30000114440918px;
+    height: 29.30000114440918 x;
+    left: 592.8125px;
+    right: 664.7874984741211px;
+    top: 19px;
+    width: 71.9749984741211px;
+}
+
+.root>h2 {
+    position: absolute;
+    bottom: 197.9499969482422px;
+    height: 42px;
+    left: 168.8000030517578px;
+    right: 1088.8000030517578px;
+    top: 155.9499969482422px;
+    width: 920px;
+    margin: 0;
+    font-weight: inherit;
+
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+   
+}
+
+/* 
+---------------------------------------------------------------------------------------------------
+индивидуальная стилизация через div>section:nth-child
+---------------------------------------------------------------------------------------------------
+*/
+
+/*
+---------------------------------------------------------------------------------------------------
+    section 1
+---------------------------------------------------------------------------------------------------
+*/
+div>section:nth-child(1){
+    position: absolute;
+    text-align: center;
+    bottom: 280.9499969482422px;
+    height: 49px;
+    left: 500.01251220703125px;
+    right: 757.5750122070312px;
+    top: 231.9499969482422px;
+    width: 257.5625px;
+
+    background: #ffdf39;
+    transition: background-color .5s ease-out;
+    border-radius: 4px;
+}
+
+div>section:nth-child(1)>span{    
+    white-space: nowrap;
+    line-height: 49px;
+    font-family: "YS Text",Helvetica,Arial,sans-serif;
+    color: #252525;
+    font-size: 20px;
+}
+
+/*
+---------------------------------------------------------------------------------------------------
+    section 2
+---------------------------------------------------------------------------------------------------
+*/
+div>section:nth-child(2){
+    position: absolute;
+    bottom: 305.95001220703125px;
+    height: 15px;
+    left: 168.8000030517578px;
+    right: 1088.8000030517578px;
+    top: 290.95001220703125px;
+    width: 920px;
+    text-align: center;    
+}
+
+div>section:nth-child(2)>span{    
+    font-size: 9pt; 
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 11px;
+    color: #999;
+    font-family: "Helvetica Neue",arial,sans-serif;
+}
+
+/*
+---------------------------------------------------------------------------------------------------
+    section 3
+---------------------------------------------------------------------------------------------------
+*/
+div>section:nth-child(3){
+    position: absolute; 
+    bottom: 665.9500122070312px;
+    height: 343px;
+    left: 153.8000030517578px;
+    right: 1103.8000030517578px;
+    top: 322.95001220703125px;
+    width: 950px;
+    
+    display: flex;    
+    flex-flow: row wrap;    
+    justify-content: stretch;
+    margin: -15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+/* 
+-----------------------------------------------------------
+общая стилизация через section>section
+индивидуальная стилизация через section>section>div:nth-child
+-----------------------------------------------------------
+*/
+section>section{
+    bottom: 665.9500122070312px;
+    height: 343px;
+    left: 153.8000030517578px;
+    right: 470.4250030517578px;
+    top: 322.95001220703125px;
+    width: 316.625px;
+}
+
+section>section>div:nth-child(1){
+    top: 0;
+    right: 0;
+    padding-bottom: 16px;
+    height: 197.238px;
+    width: 286px;
+    padding: 15px;
+}
+
+section>section>div>img{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+section>section>div:nth-child(2){
+    margin: 0;
+    height: 56px;
+    width: 286.63px;
+    padding: 15px;
+}
+
+section>section>div:nth-child(2)>h4{
+    margin: 0;
+    font-size: 20px;
+    font-weight: inherit;
+    text-align: center;
+    line-height: 28px;
+
+}
+
+
+/*
+---------------------------------------------------------------------------------------------------
+    section 4
+---------------------------------------------------------------------------------------------------
+*/
+
+div>section:nth-child(4){
+    position: absolute;
+    bottom: 753.6000366210938px;
+    height: 54px;
+    left: 151.8000030517578px;
+    right: 1105.8000030517578px;
+    top: 699.6000366210938px;
+    width: 954px;
+    
+    text-align: center;    
+    
+        
+}
+
+div>section:nth-child(4)>div{   
+    padding-top: 16px;    
+    text-align: center;    
+    vertical-align: middle;
+    font-size: 12px;          
+    margin-bottom: 0;
+    line-height: 11px;
+    color: #2F2F2F;    
+    
+}
