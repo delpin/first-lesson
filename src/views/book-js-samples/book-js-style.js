@@ -61,7 +61,10 @@ border-width: 1px 0px;
 border-style: solid;
 border-color: #75BDFF;
 padding: 16px;
+
+white-space: pre;
 `;
+//-- white-space: pre; нужен для корректного перевода строк в тексте
 
 const style_result = styled.div`
 
@@ -79,7 +82,10 @@ line-height: 15px;
 padding : 12px;
 color: #000000;
 padding: 16px;
+
+white-space: pre;
 `;
+//-- white-space: pre; нужен для корректного перевода строк в тексте
 
 
 
