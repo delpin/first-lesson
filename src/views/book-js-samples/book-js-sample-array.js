@@ -6,17 +6,13 @@
 //---- Работа с массивом
 function sample1 () {
 
-    //------------------------------------------------------------------------------------------------
-    //---- тело функции
-    //------------------------------------------------------------------------------------------------
     let result = "";
     const fruits = ["Яблоко", "Апельсин", "Груша"]; 
     fruits.pop();
     
-    result = result + fruits.toString() + "<br/>";
+    result = result + fruits.toString() + "\n";
     fruits.push("Арбуз");
-    result = result + fruits.toString() + "<br/>";
-    //------------------------------------------------------------------------------------------------
+    result = result + fruits.toString() + "\n";    
 
     return (result);
 
@@ -25,13 +21,10 @@ function sample1 () {
 //--- Деструктуризация массива
 function sample2 () {
 
-    //------------------------------------------------------------------------------------------------
-    //---- тело функции
-    //------------------------------------------------------------------------------------------------
     let result = "";
     const [firstName, lastName] = ["Илья", "Кантор"]; 
-    result = "firstName=" + firstName + " <br/>lastName=" + lastName;
-    //------------------------------------------------------------------------------------------------
+    result = "firstName=" + firstName + "\nlastName=" + lastName;
+    
 
     return (result);
 
@@ -44,31 +37,16 @@ const js_samples = [
     
     {
         js_sample_title: "Работа с массивом",
-        js_sample_body: `
-            const result = "";<br/>
-            const fruits = ["Яблоко", "Апельсин", "Груша"]; <br/>
-            fruits.pop();<br/>
-            
-            result = result + result.toString();<br/>
-            fruits.push("Арбуз");<br/>
-            result = result + result.toString();<br/>
-        `,
+        js_sample_body: sample1.toString(),
         js_sample_result: sample1()
     },
 
     {
         js_sample_title: "Деструктуризация массива",
-        js_sample_body: `
-            const result = "";<br/>
-            const [firstName, lastName] = ["Илья", "Кантор"]; <br/>
-            result = "firstName=" + firstName + " lastName=" + lastName;<br/>
-        `,
+        js_sample_body: sample2.toString(),
         js_sample_result: sample2()
     }
-
-
-
-
+    
 ];
 
 
