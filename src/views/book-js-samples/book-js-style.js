@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //--- сетка главного экрана
 const style_root = styled.div`
     display : grid;
-    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-columns : 1fr 1fr;
     grid-template-rows : 1fr 1fr 1fr;
     grid-gap : 20px;
     padding : 8px;
@@ -45,6 +45,7 @@ align-items: center;
 text-align: center;
 
 color: #000000;
+padding: 16px;
 
 `;
 
@@ -59,6 +60,7 @@ bottom: 26.4%;
 border-width: 1px 0px;
 border-style: solid;
 border-color: #75BDFF;
+padding: 16px;
 `;
 
 const style_result = styled.div`
@@ -76,6 +78,7 @@ line-height: 15px;
 
 padding : 12px;
 color: #000000;
+padding: 16px;
 `;
 
 

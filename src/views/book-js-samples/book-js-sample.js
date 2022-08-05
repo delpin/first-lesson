@@ -19,11 +19,14 @@ function JS_Sample({js_sample})
                         </all_style.style_title>
 
                         <all_style.style_body>
-                            {js_sample.js_sample_body}
+                        <div dangerouslySetInnerHTML={
+                        {__html:  js_sample.js_sample_body}} />
+                   
                         </all_style.style_body>
 
                         <all_style.style_result>
-                            {js_sample.js_sample_result}
+                        <div dangerouslySetInnerHTML={
+                        {__html:  js_sample.js_sample_result}} />
                         </all_style.style_result>
 
                     </all_style.style_sample_el1>
