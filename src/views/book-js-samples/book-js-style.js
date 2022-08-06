@@ -2,16 +2,21 @@ import styled from 'styled-components';
 
 //--- сетка главного экрана
 const style_root = styled.div`
+`;
+/*
+const style_root = styled.div`
+    
     display : grid;
     grid-template-columns : 1fr 1fr;
     grid-template-rows : 1fr 1fr 1fr;
     grid-gap : 20px;
     padding : 8px;
 `;
-
+*/
 
 const style_sample_el0 = styled.div`
 border-radius: 8px;
+margin: 2px;
 `;
 
 const style_sample_el1 = styled.div`
