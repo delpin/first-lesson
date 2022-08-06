@@ -1,5 +1,5 @@
 import * as array_sample1 from "./js-samples/js-array/array-sample1.js";
-import * as array_sample2 from "./js-samples/js-array/array-sample1.js";
+import * as array_sample2 from "./js-samples/js-array/array-sample2.js";
 
 
 
