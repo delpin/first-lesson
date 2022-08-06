@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import * as all_style from "./book-js-style.js";
-import {JS_Sample} from "./book-js-sample.js";
+import {JS_Sample_Minimize, JS_Sample} from "./book-js-sample.js";
 import * as data from "./book-js-sample-array.js";
 
 //------------------------------------------------------
@@ -9,6 +9,19 @@ import * as data from "./book-js-sample-array.js";
 function JS_Book()
 {
 
+    //-- пропускаем исходный массив,
+    //-- через механизм получения статуса в хуке
+
+    const [
+        js_samples_hook_status, //--- объявляем через деструктуризацию переменную со статусом
+        set_hook_status     //--- объявляем через деструктуризацию функцию через которую будет устанавливаться новое значение статуса
+    ] = useState(data.js_samples);//-- useState это готовый Хук встроенный в React
+
+    const refresh_all_model = function () {
+        const js_samples_hook_status_new = [...js_samples_hook_status];//--- передавать нужно обязательно новый экземпляр!!!
+        set_hook_status(js_samples_hook_status_new);
+    };
+
     return (
             <div>
                 <all_style.style_root>
@@ -16,10 +29,35 @@ function JS_Book()
                     
                     //--- на основе массива с примерами JS через MAP генерим список React-компонент
                     
-                    data.js_samples.map(js_sample => (
-                        <JS_Sample
-                            js_sample={js_sample}                            
-                        />
+                    js_samples_hook_status.map(js_sample => (
+                        
+                            (js_sample.js_sample_window_state==0) ?
+                            (
+                                <div 
+                                    onClick={() => (                                    
+                                    js_sample.js_sample_window_state = 1,
+                                    refresh_all_model()
+                                    )}>
+                                    <JS_Sample_Minimize
+                                        js_sample={js_sample}                            
+                                />
+                                </div>
+
+                                
+                            ) :
+                            (
+                                <div 
+                                    onClick={() => (                                    
+                                    js_sample.js_sample_window_state = 0,
+                                    refresh_all_model()
+                                    )}>
+                                    <JS_Sample
+                                    js_sample={js_sample}                            
+                                />
+                                </div>
+                                
+                            )                        
+
                     ), null)
                     
                   
