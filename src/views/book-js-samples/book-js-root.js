@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import * as all_style from "./book-js-style.js";
-import {JS_Sample_Minimize, JS_Sample} from "./book-js-sample.js";
+import {JSSampleMinimize, JSSample} from "./book-js-sample.js";
 import * as data from "./book-js-sample-array.js";
 
 //------------------------------------------------------
 //-- компонент Root-Book
 //------------------------------------------------------
-function JS_Book()
+function JSBook()
 {
 
     //-- пропускаем исходный массив,
@@ -31,14 +31,15 @@ function JS_Book()
                     
                     js_samples_hook_status.map(js_sample => (
                         
-                            (js_sample.js_sample_window_state==0) ?
+                            (js_sample.js_sample_window_state===0) ?
                             (
                                 <div 
-                                    onClick={() => (                                    
-                                    js_sample.js_sample_window_state = 1,
-                                    refresh_all_model()
-                                    )}>
-                                    <JS_Sample_Minimize
+                                    onClick={() => {                                    
+                                        js_sample.js_sample_window_state = 1;
+                                        refresh_all_model()
+                                    }
+                                    }>
+                                    <JSSampleMinimize
                                         js_sample={js_sample}                            
                                 />
                                 </div>
@@ -47,11 +48,11 @@ function JS_Book()
                             ) :
                             (
                                 <div 
-                                    onClick={() => (                                    
-                                    js_sample.js_sample_window_state = 0,
-                                    refresh_all_model()
-                                    )}>
-                                    <JS_Sample
+                                    onClick={() => {                                   
+                                        js_sample.js_sample_window_state = 0;
+                                        refresh_all_model()
+                                    }}>
+                                    <JSSample
                                     js_sample={js_sample}                            
                                 />
                                 </div>
@@ -68,4 +69,4 @@ function JS_Book()
 
 }
 
-export default JS_Book;
+export default JSBook;

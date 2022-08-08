@@ -6,7 +6,7 @@ import * as all_style from "./book-js-style.js";
 //------------------------------------------------------
 //-- компонент JS_Sample
 //------------------------------------------------------
-function JS_Sample_Minimize({js_sample})
+function JSSampleMinimize({js_sample})
 {
 
     return (
@@ -30,7 +30,7 @@ function JS_Sample_Minimize({js_sample})
 //------------------------------------------------------
 //-- компонент JS_Sample
 //------------------------------------------------------
-function JS_Sample({js_sample})
+function JSSample({js_sample})
 {
 
     return (
@@ -60,4 +60,4 @@ function JS_Sample({js_sample})
     
 }
 
-export {JS_Sample_Minimize, JS_Sample};
+export {JSSampleMinimize, JSSample};

@@ -7,7 +7,7 @@ import {
 
 import Lesson1 from './views/lesson-1';
 import Lesson2 from './views/lesson-2';
-import JS_Book from './views/book-js-samples/book-js-root.js';
+import JSBook from './views/book-js-samples/book-js-root.js';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route index element={<Lesson2 />} />
         </Route>
         <Route path="/JS_Book" >
-          <Route index element={<JS_Book />} />
+          <Route index element={<JSBook />} />
         </Route>
         <Route
           path="*"

@@ -26,10 +26,16 @@ function sample_function () {
     map.set("1", "str1");
     map.set(1, "num1");
     map.set(true, 12345);
+    let Obj = {
+        name: "Sergey"
+    };
+    map.set(
+        Obj, true);
     //
     result = add_string_to_result (result, "map.get('1')=" + map.get("1"));   
     result = add_string_to_result (result, "map.get(1)=" + map.get(1));
     result = add_string_to_result (result, "true=" + map.get(true));    
+    result = add_string_to_result (result, "Obj=" + map.get(Obj));  
     //
     //
     // PS: обычный объект Object приводит ключи к строкам
