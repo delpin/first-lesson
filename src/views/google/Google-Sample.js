@@ -21,7 +21,7 @@ import google_link9 from "./icons/google_link9.png";
 
 
 
-function HTMLSamples() {
+function GoogleSample() {
     return (        
         <div className="root">
             {
@@ -201,4 +201,4 @@ function HTMLSamples() {
     );
 }
 
-export default HTMLSamples;
+export default GoogleSample;

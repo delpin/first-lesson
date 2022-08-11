@@ -7,6 +7,7 @@ import {
 
 import Lesson1 from './views/lesson-1';
 import Lesson2 from './views/lesson-2';
+import GoogleSample from './views/google/Google-Sample.js';
 import JSBook from './views/book-js-samples/book-js-root.js';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/lesson-2" >
           <Route index element={<Lesson2 />} />
+        </Route>
+        <Route path="/GoogleSample">
+          <Route index element={<GoogleSample />} />
         </Route>
         <Route path="/JS_Book" >
           <Route index element={<JSBook />} />
