@@ -1,0 +1,25 @@
+div{
+  border: 1px green solid;
+  min-height: 10px;
+  min-width: 10px;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.keyBoard{
+  margin:2px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:576px;
+  justify-items: center;
+}
+
+.myKey{
+  width: 40px;
+  height: 40px;
+  margin:2px;
+  border:2px solid black;
+  text-align: center;
+  font-weight: bold;
+}

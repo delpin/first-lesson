@@ -1,55 +1,70 @@
-# VS Code - настройка
+# Getting Started with Create React App
 
-## Материалы
-1) Установка
-https://code.visualstudio.com/
-2) 3 урока для базовой настройки
-https://code.visualstudio.com/learn/get-started/basics
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Тренируем GIT
-## Материалы
-- установка 
-https://git-scm.com/downloads
-- документация
-https://git-scm.com/docs
-- крутой курс!
-https://learngitbranching.js.org/?locale=ru_RU
+## Available Scripts
 
-## Практика
-0) Установить GIT
-1) Добавить ssh-key
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh
-2) Склонировать проект
-3) Перейти в ветку develop
-4) от develop создать ветку с уникальным именем
-5) после всех пунктов залить на стенд
+In the project directory, you can run:
 
-# Html + CSS
+### `npm start`
 
-## Материалы
-- Курс на русском
-https://metanit.com/web/html5/
-- Интерактивные курсы
-https://htmlacademy.ru/courses
-- Информация о flexbox
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- Курсы
-https://www.youtube.com/watch?v=1X8FNuy32ZM&ab_channel=webDev
-https://www.youtube.com/watch?v=_J6hMLsscOo&ab_channel=webDev
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- БЭМ
-https://ru.bem.info/methodology/quick-start/
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Практика
-Задача 1.
-https://yandex.ru/promo/set/portal_instructions/sethome_p/3?from=popup_main_Chrome_sethome_macos&utm_medium=popup&utm_source=main&utm_campaign=sethome_L&c=1&yclid=3932121594700813314
+### `npm test`
 
-Задача отверстать сайт используя 1 класс в заголовке и от него вниз используя псевдоклассы и каскадность стилизовать элементы (div:first-type, .root > div,div + div, ...)
-Внимание! Только для практики, в жизни так не делают
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-views/lesson-1
+### `npm run build`
 
-Задача 2.
-Отверстать youtube - главную страницу используя БЭМ и flexbox
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-views/lesson-2
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
