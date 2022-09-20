@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Calculator from "./components/calculator";
 import { ListKeyboard } from "./components/listKeyboard";
 import Result from "./components/result";
 
@@ -25,6 +26,7 @@ function App() {
       />
       <ListKeyboard text={value} myClick={updateResult} />
       <Result text={result} clear={clearResult} />
+      <Calculator />
     </div>
   );
 }
