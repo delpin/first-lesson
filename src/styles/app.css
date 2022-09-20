@@ -62,3 +62,7 @@
     text-align: center;
 
 }
+
+.history {
+    min-width: 400px;
+}

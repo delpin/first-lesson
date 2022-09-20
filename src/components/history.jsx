@@ -1,19 +1,20 @@
 import "../styles/app.css";
 
 function History(props) {
-  const history = props.history;
-  if (!history?.length) return "";
+  const state = props.history;
 
-  const updateItems = (e) => {
-    props.handleUpdate(e.target.innerText);
+  const updateItems = (item) => {
+    console.log(item);
+    props.handleUpdate(item);
   };
-  const test = history.map(function (item, index) {
+  if (!state.history.length) return;
+  const test = state.history.map(function (item, index) {
     return (
-      <li key={new Date().getTime() + index} onClick={updateItems}>
-        {item}
+      <li key={new Date().getTime() + index} onClick={() => updateItems(item)}>
+        %{item} -% {state.historyResult[index]} -% {state.timer[index]}
       </li>
     );
   });
-  return <ul>{test}</ul>;
+  return <ul className="history">{test}</ul>;
 }
 export default History;
