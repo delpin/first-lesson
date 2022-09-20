@@ -9,14 +9,22 @@ function App() {
     setResult([...result, e.target.innerText]);
   }
   function updateValue(e) {
-    setValue([...value, e.nativeEvent.data]);
+    setValue(e.split(""));
   }
+
+  const clearResult = () => {
+    setResult("");
+  };
+
   return (
     <div>
       поле ввода:
-      <input type="text" onChange={updateValue} />
+      <input
+        type="text"
+        onChange={(event) => updateValue(event.target.value)}
+      />
       <ListKeyboard text={value} myClick={updateResult} />
-      <Result text={result} />
+      <Result text={result} clear={clearResult} />
     </div>
   );
 }

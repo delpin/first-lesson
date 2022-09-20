@@ -5,6 +5,7 @@ function Result(props) {
   return (
     <div>
       <div>Результат:{props.text}</div>
+      <button onClick={props.clear}>Очистка</button>
     </div>
   );
 }
