@@ -1,18 +1,28 @@
 
 import './App.css'
 import { useState } from 'react'
-import Key from './component/Key'
-import Result from './component/Result'
+import Key from './component-note/Key'
+import Result from './component-note/Result'
 
 function App() {
 
-  const [keys, addKey] = useState([])
+  let [keys, addKey] = useState([])
   const [result, setResult] = useState([])
+
+  Array.prototype.clear = function() {
+    this.length = 0    
+  }
   
-  function addComponent(ev) {
-    console.log(ev)
+  function addComponent(ev) {     
     if(ev.nativeEvent.data){
       addKey([...keys, ev.nativeEvent.data])
+    }else{
+      //Бред
+      if(ev.nativeEvent.inputType === 'deleteContentBackward' || ev.nativeEvent.inputType === 'deleteContentForward'){
+        //keys.clear()
+        setResult([])
+        addKey(ev.currentTarget.value.split(''))
+      }      
     }
   }
 
@@ -30,9 +40,9 @@ function App() {
         <input className="customEdit-input" type='edit' onChange = {addComponent}></input>
       </div>
       <div className="keyBoard">
-        {keys.map((item, i) => ( <Key key = {item+i} val={item} setRes = {setRes} />))}
+        {keys.map((item, i) => (<Key key = {item+i} val={item} setRes = {setRes}/>))}
       </div>
-      <Result value = {result} ></Result>
+      <Result value = {result}></Result>
     </div>
   )
   
