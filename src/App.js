@@ -36,7 +36,11 @@ function App() {
     if(Number(keys.join('')) !== res){
       addKey([res])
       setHistory([...history,keys.join('')])
-
+    }
+  }
+  function setRes(event){
+    if(checkAdd(event)){      
+      addKey([event.currentTarget.getAttribute("val")])
     }
   }
   
@@ -64,7 +68,7 @@ function App() {
       </div>      
       <div className='history-block'>
         <label>История:</label>        
-        {history.map((item, i) => (<History key = {item+i} val={eval(item)} history={item + '=' + eval(item) + '-(' + (new Date()).toLocaleTimeString() + ')'} setRes={addSym}/>))}
+        {history.map((item, i) => (<History key = {item+i} val={eval(item)} history={item + '=' + eval(item) + '-(' + (new Date()).toLocaleTimeString() + ')'} setRes={setRes}/>))}
       </div>
     </div>
   )  
