@@ -111,9 +111,10 @@ body {
 }
 
 .user-options .icon {
-    height: 70%;
+    height: 80%;
     margin-right: 25px;
     cursor: pointer;
+    opacity: .8;
 }
 
 .user-dp {
@@ -124,7 +125,7 @@ body {
 }
 
 .user-dp img {
-    width: 90%;
+    /* width: 90%; */
     object-fit: cover;
 }
 
@@ -214,7 +215,7 @@ body {
 
 .video-container {
     width: calc(100% - 250px);
-    margin-top: 120px;
+    /* margin-top: 120px; */
     margin-left: 250px;
     padding: 20px;
     display: grid;
@@ -228,10 +229,15 @@ body {
     height: auto;
 }
 
+.video img{
+    padding: 20px;
+}
+
 .thumbnail {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    height: 170px;
+    object-fit: fit;
+    border-radius: 10px;
 }
 
 .content {

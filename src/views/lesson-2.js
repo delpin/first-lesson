@@ -18,12 +18,12 @@ function Lesson2() {
                     </div>
                 </div>
                 <div class="user-options">
-                    <img src="img/video-add.svg" class="icon" alt="" />
-                    <img src="img/grid.svg" class="icon" alt="" />
-                    <img src="img/bell(1).svg" class="icon" alt="" />
+                    <img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/video-add.svg" class="icon" alt="" />
+                    <img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/grid.svg" class="icon" alt="" />
+                    <img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/bell.svg" class="icon" alt="" />
 
                     <div class="user-dp">
-                        <img src="img/user.svg" alt="" />
+                        <img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/user.svg" alt="" />
                     </div>
                 </div>
             </nav>
@@ -31,28 +31,28 @@ function Lesson2() {
             {/* sidebar */}
             <nav class="sidebar">
                 <ul class="sidebar">
-                    <li class="sedibar__item"><a href="home" class="item-link active"><img src="img/home_ico.png"
+                    <li class="sedibar__item"><a href="home" class="item-link active"><img src="https://github.com/solidados/youtube_clone/blob/main/img/home_ico.png?raw=true"
                         alt="" />Главная</a></li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/shorts-ico.svg" alt="" />Shorts</a>
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/shorts-ico.svg" alt="" />Shorts</a>
                     </li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/subscribe_ico.png"
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://github.com/solidados/youtube_clone/blob/main/img/subscribe_ico.png?raw=true"
                         alt="" />Подписки</a></li>
                     <li class="sidebar__item">
                         <hr class="seperator" />
                     </li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/library_ico.png"
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://github.com/solidados/youtube_clone/blob/main/img/library_ico.png?raw=true"
                         alt="" />Библиотека</a></li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/history.svg" alt="" />История</a>
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/history.svg" alt="" />История</a>
                     </li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/your-videos.svg" alt="" />Ваши
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/your-videos.svg" alt="" />Ваши
                         видео</a></li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/watch-later.svg" alt="" />Смотреть
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/watch-later.svg" alt="" />Смотреть
                         позже</a></li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/downloaded.svg"
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/downloaded.svg"
                         alt="" />Скачанные</a></li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/liked(1).svg"
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://raw.githubusercontent.com/solidados/youtube_clone/ee7fee345e24b31cc945e5f0e1b7cdf2323aa119/img/liked(1).svg"
                         alt="" />Понравившиеся</a></li>
-                    <li class="sedibar__item"><a href="home" class="item-link"><img src="img/show more.PNG"
+                    <li class="sedibar__item"><a href="home" class="item-link"><img src="https://github.com/solidados/youtube_clone/blob/main/img/show%20more.PNG?raw=true"
                         alt="" />Развернуть</a></li>
                 </ul>
             </nav>
