@@ -10,10 +10,15 @@
 
 body {
     position: relative;
-    background: #f0f0f0;
     font-family: "roboto", sans-serif;
 }
 
+.navbar-container{
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    padding: 0 20px;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -51,8 +56,8 @@ body {
 }
 
 .logo {
-    max-width: 130px;
-    margin-left: 60px;
+    max-width: 120px;
+    margin-left: 20px;
 }
 
 .search-box {
@@ -76,25 +81,26 @@ body {
     border-radius: 20px 0 0 20px;
 
     font-size: 16px;
+    opacity: 0.7;
     /* text-transform: capitalize; */
 }
-.keyboard-btn{
+.keyboard-btn {
     position: relative;
     left: -50px;
     scale: 70%;
     border: none;
     background: none;
-    opacity: .6;
+    opacity: 0.6;
 }
 
 .search-btn {
     position: relative;
     left: -35px;
     width: 15%;
-    height: 100%;
-    background: #f0f0f0;
+    /* height: 100%; */
+    /* background: #f0f0f0; */
     border: 1px solid #dbdbdb;
-    padding: 5px 0;
+    padding: 10px 0;
     border-left: none;
     border-radius: 0 20px 20px 0;
 }
@@ -111,10 +117,9 @@ body {
 }
 
 .user-options .icon {
-    height: 80%;
+    height: 70%;
     margin-right: 25px;
     cursor: pointer;
-    opacity: .8;
 }
 
 .user-dp {
@@ -125,7 +130,7 @@ body {
 }
 
 .user-dp img {
-    /* width: 90%; */
+    width: 90%;
     object-fit: cover;
 }
 
@@ -180,8 +185,6 @@ body {
     width: calc(100% - 250px);
     height: 60px;
     background: #fff;
-    border-top: 1px solid #dbdbdb;
-    border-bottom: 1px solid #dbdbdb;
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -195,7 +198,7 @@ body {
 
 .filter-options {
     flex: 0 0 auto;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border-radius: 10px;
     background: #f0f0f0;
     border: none;
@@ -210,12 +213,15 @@ body {
     color: #fff;
     background: #242424;
 }
+.filter-options:hover{
+    background: #c3c0c0;
+}
 
 /* video */
 
 .video-container {
     width: calc(100% - 250px);
-    /* margin-top: 120px; */
+    margin-top: 120px;
     margin-left: 250px;
     padding: 20px;
     display: grid;
@@ -229,15 +235,15 @@ body {
     height: auto;
 }
 
-.video img{
-    padding: 20px;
+.video__wrapper {
+    padding: 5px;
 }
 
 .thumbnail {
     width: 100%;
     height: 170px;
     object-fit: fit;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .content {
@@ -245,7 +251,7 @@ body {
     height: 100px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: start; */
 }
 
 .channel-icon {
@@ -258,12 +264,13 @@ body {
 
 .title {
     width: 100%;
-    height: 40px;
+    margin-bottom: 4px;
+    line-height: 1.5;
     overflow: hidden;
 }
 
 .channel-name {
-    font-size: 14px;
-    margin: 2px 0;
+    font-size: 12px;
+    line-height: 1.5;
     color: #979797;
 }
