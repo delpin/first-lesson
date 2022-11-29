@@ -1,4 +1,6 @@
-import './lesson-1.css';
+// import './lesson-1.css';
+import './lesson-1.scss';
+
 function Lesson1() {
     return (
         <div className="root">
@@ -22,19 +24,19 @@ function Lesson1() {
                             <section className="cards">
                                 <div className="cards__container">
                                     <div className='cards__block'>
-                                        <div className="card__item">
-                                            <img className="item__img" src="https://avatars.mds.yandex.net/get-lpc/1531919/6a1c901a-ee13-46af-9bb6-08d8e6360e0a/width_360_q70" srcset="https://avatars.mds.yandex.net/get-lpc/1531919/6a1c901a-ee13-46af-9bb6-08d8e6360e0a/width_360x2_q70 2x" loading="lazy" alt='install button'></img>
-                                            <p className="item__text">Установите расширение из&nbsp;Google Chrome Store</p>
+                                        <div className="cards__item">
+                                            <img className="cards__item-img" src="https://avatars.mds.yandex.net/get-lpc/1531919/6a1c901a-ee13-46af-9bb6-08d8e6360e0a/width_360_q70" srcset="https://avatars.mds.yandex.net/get-lpc/1531919/6a1c901a-ee13-46af-9bb6-08d8e6360e0a/width_360x2_q70 2x" loading="lazy" alt='install button'></img>
+                                            <p className="cards__item-text">Установите расширение из&nbsp;Google Chrome Store</p>
                                         </div>
 
-                                        <div className="card__item">
-                                            <img className="item__img" src="https://avatars.mds.yandex.net/get-lpc/1531919/f4b4d03e-934b-4b11-b9de-e2d4e649578f/width_360_q70" srcset="https://avatars.mds.yandex.net/get-lpc/1531919/f4b4d03e-934b-4b11-b9de-e2d4e649578f/width_360x2_q70 2x" loading="lazy" alt='activate instruction'></img>
-                                            <p className="item__text">Активируйте его, нажав на&nbsp;иконку у&nbsp;адресной строки</p>
+                                        <div className="cards__item">
+                                            <img className="cards__item-img" src="https://avatars.mds.yandex.net/get-lpc/1531919/f4b4d03e-934b-4b11-b9de-e2d4e649578f/width_360_q70" srcset="https://avatars.mds.yandex.net/get-lpc/1531919/f4b4d03e-934b-4b11-b9de-e2d4e649578f/width_360x2_q70 2x" loading="lazy" alt='activate instruction'></img>
+                                            <p className="cards__item-text">Активируйте его, нажав на&nbsp;иконку у&nbsp;адресной строки</p>
                                         </div>
 
-                                        <div className="card__item">
-                                            <img className="item__img" src="https://avatars.mds.yandex.net/get-lpc/1520633/3ed38931-24c1-49ed-931e-912985601262/width_360_q70" srcset="https://avatars.mds.yandex.net/get-lpc/1520633/3ed38931-24c1-49ed-931e-912985601262/width_360x2_q70 2x" alt='ask Yandex for help'></img>
-                                            <p className="item__text">Спрашивайте у&nbsp;Яндекса на&nbsp;стартовой и&nbsp;в&nbsp;адресной строке</p>
+                                        <div className="cards__item">
+                                            <img className="cards__item-img" src="https://avatars.mds.yandex.net/get-lpc/1520633/3ed38931-24c1-49ed-931e-912985601262/width_360_q70" srcset="https://avatars.mds.yandex.net/get-lpc/1520633/3ed38931-24c1-49ed-931e-912985601262/width_360x2_q70 2x" alt='ask Yandex for help'></img>
+                                            <p className="cards__item-text">Спрашивайте у&nbsp;Яндекса на&nbsp;стартовой и&nbsp;в&nbsp;адресной строке</p>
                                         </div>
                                     </div>
                                 </div>
